@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.c-office/1job",
+  "title": "1Job",
+  "description": "Ask your AI about your job applications: find ones with no reply, prep interviews, update statuses",
+  "version": "1.2.0",
+  "websiteUrl": "https://1job.app/mcp/",
+  "icons": [
+    {
+      "src": "https://1job.app/icon/128.png",
+      "mimeType": "image/png",
+      "sizes": ["128x128"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.1job.app/mcp"
+    }
+  ]
+}

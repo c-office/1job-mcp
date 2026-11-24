@@ -1,0 +1,11 @@
+{
+  "name": "1job",
+  "version": "1.2.0",
+  "description": "Ask Gemini about your job applications tracked in 1Job: find ones with no reply, prep interviews, update statuses.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "1job": {
+      "httpUrl": "https://api.1job.app/mcp"
+    }
+  }
+}
